@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoStore</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/Icono5.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="logo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Angular JS</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/2.jpg" alt="Imagen del producto">
+            <div class="camisa__contenido">
+                <p>Lleva tu pasión por la programación a donde vayas con nuestras camisas exclusivas de CryptoGuard Store. 
+                   Diseñadas por programadores para programadores, estas camisas combinan comodidad y estilo con estampados que representan tus lenguajes y herramientas favoritas. 
+                   Confeccionadas en materiales de alta calidad, nuestras camisas son suaves, duraderas y perfectas para cualquier ocasión, ya sea en la oficina, en conferencias, 
+                   o simplemente relajándote. Exprésate con orgullo y muestra al mundo lo que te motiva a diario.
+                </p>
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>--Seleciona Una Talla--</option>
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar Al Carrito">
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">&copy; 2024 CryptoGuard Store - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
